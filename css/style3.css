@@ -1,0 +1,44 @@
+p{
+    color: black;
+}
+#marge{
+    margin-top: 900px;
+}
+.bio{
+    margin-top: 300px;
+}
+
+.row{
+   position: relative; 
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+
+title{
+    color: #000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.color{
+    color: #000;
+}
+
+.bio .box{
+    width: 100%;
+    margin:0 40px ;
+    margin-right: -100px;
+    border:20px solid #ffff;
+    box-shadow: 20px 15px 35px rgba(0, 0,0, 0.8) ;
+}
