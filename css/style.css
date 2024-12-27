@@ -70,3 +70,49 @@ header #navbar li a:hover{
   color: #fb911f;
   border-bottom:2px solid #fb911f ;
 }
+
+@media (max-width:991) {
+  header,header.sticky{
+      padding:10px 20px;
+  }
+ 
+  .row{
+    flex-direction: column;
+  }
+  header .navbar li a{
+      margin-left: 0px;
+  }
+  header .navbar li {
+      text-decoration: none;
+      color:#111;
+      font-size: 1.6em;
+      font-weight: 300;
+  }
+  .navbar{
+      display: none;
+  }
+
+  .row{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .row .col50{
+      position: relative;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+  
+}
+#copyright{
+  padding: 20px 40px;
+  border-top: 2px solid rgba(0, 0,0, 0.1);
+  background-color: #233456;
+}
+.row .col50{
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

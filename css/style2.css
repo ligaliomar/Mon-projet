@@ -32,3 +32,14 @@ title{
 .color{
     color: #000;
 }
+.bio .box{
+    width: 90%;
+    margin:5px 40px 10px 30px ;
+    border:20px solid #ffff;
+    box-shadow: 20px 15px 35px rgba(0, 0,0, 0.8) ;
+    
+}
+header #navbar li a:hover{
+    color: #fb911f;
+    border-bottom:2px solid #fb911f ;
+  }

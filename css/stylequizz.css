@@ -1,13 +1,76 @@
+
+header{
+    position:fixed;
+    top:0%;
+    left: 0%;
+    padding:10px 10px;
+    width: 100%;
+    z-index: 1;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #233456;
+ }
+ .navbar{
+   display:flex;
+   position:relative;
+ }
+ 
+ .navbar li{
+   list-style: none;
+ }
+ .navbar a{
+   color:#fff;
+   text-decoration: none;
+   margin-left: 30px;
+   font-weight: 700;
+ }
+ .btn{
+   padding:10px 20px;
+   background: #fb911f;
+   margin-top: -10px;
+   text-transform: uppercase;
+ }
+ .btn:hover{
+   background:#687710;
+   transition: ease-out;
+ 
+ }
+ header .navbar li a:hover{
+   color: #fb911f;
+   border-bottom:2px solid #fb911f ;
+ }
+ #navbar{
+   display:flex;
+   position:relative;
+ }
+ 
+ #navbar li{
+   list-style: none;
+ }
+ #navbar a{
+   color:#fff;
+   text-decoration: none;
+   margin-left: 30px;
+   font-weight: 700;
+ }
+ header #navbar li a:hover{
+   color: #fb911f;
+   border-bottom:2px solid #fb911f ;
+ }
+
 *{
     padding: 0;
-    margin:0;
+
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 body{
     height: 100vh;
-    background-color: #1d2630;
+    margin: 40px 0px 0px 0px;
+   
 }
 
 .start-screen, .score-container{
@@ -37,7 +100,7 @@ button{
 #restart{
     margin-top: 0.9em;
 }
-#display-container{
+.display-container{
     background-color: #fff;
     padding: 3.1em 1.8em;
     width:80% ;
@@ -87,7 +150,6 @@ button{
 }
 
 .option-div:disabled{
-    color:#000;
     cursor: not-allowed;
 }
 
@@ -118,7 +180,13 @@ button{
 
 #user-score{
     background-color: 1.5em;
-    color:#fff;
+    color:#0e0d0d;
 
 }
+#copy{
+    margin: 50px 0px 0px 0px;
+    padding: 20px 40px;
+    border-top: 2px solid rgba(0, 0,0, 0.1);
+    background-color: #233456;
+  }
 
